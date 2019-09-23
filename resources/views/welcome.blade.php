@@ -82,6 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Coding Matters Site using Laravel 6.
+                    <span>Coming soon</span>
                 </div>
 
             </div>
