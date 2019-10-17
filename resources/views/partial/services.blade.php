@@ -6,7 +6,7 @@
     </style>
 @endpush
 
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin-top: 30px; text-align: center;">
                 <div class="row-fluid">
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium placerat ipsum, quis ultrices eros egestas eget. Fusce dolor lectus, euismod id sollicitudin ac, dapibus</p>
                 </div>
@@ -15,7 +15,7 @@
 
         <div class="row">
 
-            <div class="col">
+            <div class="col" style="padding: 10px; margin-left: 5px; margin-right: 5px">
 
                 <div class="container">
                         <img src="/images/warehouse.png" style="width: 50px; height: 50px; float: left; margin-right: 5px">
@@ -39,7 +39,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="col" style="padding: 10px; margin-left: 5px; margin-right: 5px">
 
                 <div class="container">
                     <img src="/images/purchase.png" style="width: 50px; height: 50px; float: left; margin-right: 5px">
