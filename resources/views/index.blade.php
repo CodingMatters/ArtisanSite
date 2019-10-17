@@ -25,41 +25,6 @@
         color: black;
     }
 
-
-
-    #services {
-        width: 400px;
-    }
-
-    #products {
-        width: 400px;
-    }
-
-    #usecase {
-        width: 400px;
-
-    }
-
-    .tablink {
-        background-color: dimgray;
-        color: white;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        font-size: 17px;
-        width: 100%;
-        margin-top: -20px;
-        z-index: -1;
-    }
-
-    .tabs {
-        width: inherit;
-        position: center;
-        height: inherit;
-        margin: 0 0 0 auto;
-        padding: 0;
-
-    }
     .m-tab{
         width: 33.33%;
         background-color: lightgray;
@@ -90,9 +55,9 @@
 
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active m-tab" id="nav-services-tab" data-toggle="tab" href="#nav-services" role="tab" aria-controls="nav-services" aria-selected="true"><strong>SERVICES</strong></a>
-                    <a class="nav-item nav-link m-tab" id="nav-products-tab" data-toggle="tab" href="#nav-products" role="tab" aria-controls="nav-products" aria-selected="false"><strong>PRODUCTS</strong></a>
-                    <a class="nav-item nav-link m-tab" id="nav-usecase-tab" data-toggle="tab" href="#nav-usecase" role="tab" aria-controls="nav-usecase" aria-selected="false"><strong>USE CASE</strong></a>
+                    <a class="nav-item nav-link active m-tab" id="nav-services-tab" data-toggle="tab" href="#nav-services" role="tab" aria-controls="nav-services" aria-selected="true"><img src="/images/services.png" style="width: 20px; height: 20px; float: center; margin-right: 5px"><strong>SERVICES</strong></a>
+                    <a class="nav-item nav-link m-tab" id="nav-products-tab" data-toggle="tab" href="#nav-products" role="tab" aria-controls="nav-products" aria-selected="false"><img src="/images/products.png" style="width: 20px; height: 20px; float: center; margin-right: 5px"><strong>PRODUCTS</strong></a>
+                    <a class="nav-item nav-link m-tab" id="nav-usecase-tab" data-toggle="tab" href="#nav-usecase" role="tab" aria-controls="nav-usecase" aria-selected="false"><img src="/images/use case.png" style="width: 20px; height: 20px; float: center; margin-right: 5px"><strong>USE CASE</strong></a>
                 </div>
             </nav>
             <div class="tab-content" id="nav-tabContent">
