@@ -17,9 +17,11 @@
 
             <div class="col" style="padding: 10px; margin-left: 5px; margin-right: 5px">
 
-                <div class="container">
+                <div class="container" >
+                    <a href="{{route('warehousing')}}" style="text-decoration: none; color: dimgray">
                         <img src="/images/warehouse.png" style="width: 50px; height: 50px; float: left; margin-right: 5px">
                         <h2><STRONG>WAREHOUSING</STRONG></h2>
+                    </a>
                 </div>
                 <div class="container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium placerat ipsum,
@@ -28,8 +30,10 @@
                 </div>
 
                 <div class="container">
+                    <a href="{{route('payroll')}}" style="text-decoration: none; color: dimgray">
                     <img src="/images/payroll.png" style="width: 50px; height: 50px; float: left; margin-right: 5px">
                     <h2><STRONG>PAYROLL</STRONG></h2>
+                    </a>
                 </div>
                 <div class="container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium placerat ipsum,
@@ -42,8 +46,10 @@
             <div class="col" style="padding: 10px; margin-left: 5px; margin-right: 5px">
 
                 <div class="container">
+                    <a href="{{route('purchase')}}" style="text-decoration: none; color: dimgray">
                     <img src="/images/purchase.png" style="width: 50px; height: 50px; float: left; margin-right: 5px">
                     <h2><STRONG>PURCHASE MANAGEMENT</STRONG></h2>
+                    </a>
                 </div>
                 <div class="container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium placerat ipsum,
@@ -52,8 +58,10 @@
                 </div>
 
                 <div class="container">
+                    <a href="{{route('sales')}}" style="text-decoration: none; color: dimgray">
                     <img src="/images/sales.jpg" style="width: 50px; height: 50px; float: left; margin-right: 5px">
                     <h2><STRONG>SALES MONITORING</STRONG></h2>
+                    </a>
                 </div>
                 <div class="container">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium placerat ipsum,
